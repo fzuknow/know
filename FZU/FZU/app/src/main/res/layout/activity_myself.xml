@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="15dp"
+
+    android:layout_marginTop="10dp"
+    android:columnCount="4"
+
+    android:orientation="horizontal"
+    android:rowCount="4">
+    <!--我的界面，利用GridLayout布局-->
+
+    <RadioButton
+        android:id="@+id/my_ask"
+        android:layout_width="196dp"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="3"
+        android:layout_gravity="fill"
+        android:layout_marginBottom="10dp"
+        android:button="@null"
+        android:text="我的提问"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/askImage"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="20dp"
+        android:src="@drawable/more" />
+
+    <RadioButton
+        android:id="@+id/my_answer"
+        android:layout_width="168dp"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="3"
+        android:layout_gravity="fill"
+        android:layout_marginBottom="10dp"
+        android:button="@null"
+        android:text="我的回答"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/answerImage"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="20dp"
+        android:src="@drawable/more" />
+
+    <RadioButton
+        android:id="@+id/my_praise"
+        android:layout_width="168dp"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="3"
+        android:layout_gravity="fill"
+        android:layout_marginBottom="10dp"
+        android:button="@null"
+        android:text="我的赞"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/praiseImage"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="20dp"
+        android:src="@drawable/more" />
+
+    <RadioButton
+        android:id="@+id/my_look"
+        android:layout_width="168dp"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="3"
+        android:layout_gravity="fill"
+        android:layout_marginBottom="10dp"
+        android:button="@null"
+        android:text="浏览记录"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/lookImage"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="20dp"
+        android:src="@drawable/more" />
+
+</GridLayout>

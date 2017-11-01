@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rowCount="10"
+    android:columnCount="3">
+
+    <!--个人信息-->
+    <ImageView
+        android:id="@+id/Image"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:layout_columnSpan="3"
+        android:layout_gravity="fill" />
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/nicheng"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_columnSpan="1"
+        android:layout_gravity="fill"
+        android:text="昵       称:"
+        android:textSize="18dp"/>
+
+    <Space
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill" />
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/sex"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_columnSpan="1"
+        android:layout_gravity="fill"
+        android:text="性       别:"
+        android:textSize="18dp"/>
+    <Space
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill" />
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/birthday"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_columnSpan="1"
+        android:layout_gravity="fill"
+        android:text="出生年月:"
+        android:textSize="18dp"/>
+    <Space
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill" />
+
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/academy"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_columnSpan="1"
+        android:layout_gravity="fill"
+        android:text="学        院:"
+        android:textSize="18dp"/>
+    <Space
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill" />
+
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/major"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_columnSpan="1"
+        android:layout_gravity="fill"
+        android:text="专        业:"
+        android:textSize="18dp"/>
+    <Space
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill" />
+
+
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/Email"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_columnSpan="1"
+        android:layout_gravity="fill"
+        android:text="邮        箱:"
+        android:textSize="18dp"/>
+    <Space
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill" />
+
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/telephone"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_columnSpan="1"
+        android:layout_gravity="fill"
+        android:text="电话号码:"
+        android:textSize="18dp"/>
+    <Space
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill" />
+
+    <Button
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="65dp"
+        android:id="@+id/modify"
+        android:layout_width="wrap_content"
+        android:text="修           改"
+        android:layout_columnSpan="3"
+        android:layout_gravity="fill"
+        android:layout_height="40dp"
+        android:background="@drawable/shape"/>
+</GridLayout>
